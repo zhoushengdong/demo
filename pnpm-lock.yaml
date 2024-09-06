@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@wsfe/ctree':
+        specifier: ^2.4.0
+        version: 2.4.0
       core-js:
         specifier: ^3.8.3
         version: 3.38.1
@@ -1037,6 +1040,9 @@ packages:
 
   '@webassemblyjs/wast-printer@1.12.1':
     resolution: {integrity: sha512-+X4WAlOisVWQMikjbcvY2e0rwPsKQ9F688lksZhBcPycBBuii3O7m8FACbDMWDojpAqvjIncrG8J0XHKyQfVeA==}
+
+  '@wsfe/ctree@2.4.0':
+    resolution: {integrity: sha512-lywbYDiDbYm5lHgtKNfIAjiBjKt9Qf6ZAB8z8vx1lOfxZ6HNKCeqX1Hs2xP5wt5Og5hPVMtmv3bMyKhc+mIuSg==}
 
   '@xtuc/ieee754@1.2.0':
     resolution: {integrity: sha512-DX8nKgqcGwsc0eJSqYt5lwP4DH5FlHnmuWWBRy7X0NcaGR0ZtuyeESgMwTYVEtxmsNGY+qit4QYT/MIYTOTPeA==}
@@ -5322,6 +5328,8 @@ snapshots:
     dependencies:
       '@webassemblyjs/ast': 1.12.1
       '@xtuc/long': 4.2.2
+
+  '@wsfe/ctree@2.4.0': {}
 
   '@xtuc/ieee754@1.2.0': {}
 
